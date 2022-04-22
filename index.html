@@ -7,19 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora JS</title>
     <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-    <input type="number" placeholder="inserte un valor..." id="valor1">
-    <input type="number" placeholder="inserte un valor..." id="valor2">
-    <select name="" id="Operacion">
+<body class="flex">
+    <div>
+        <input type="number" placeholder="inserte un valor..." id="valor1"><br>
+        <input type="number" placeholder="inserte un valor..." id="valor2"><br>
+        <select name="" id="Operacion"><br>
         <option value="sumar">+</option>
         <option value="restar">-</option>
         <option value="multiplicar">*</option>
         <option value="dividir">/</option>
-    </select>
-    <input type="submit" value="calcular" onclick="calcular()">
-    <p id="resultado"></p>
+    </select><br>
+        <input type="submit" value="calcular" onclick="calcular()">
+        <p id="resultado"></p>
+    </div>
 </body>
 
 </html>
